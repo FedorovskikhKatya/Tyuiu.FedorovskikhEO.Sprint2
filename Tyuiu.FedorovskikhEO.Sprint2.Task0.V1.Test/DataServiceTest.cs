@@ -8,6 +8,7 @@ namespace Tyuiu.FedorovskikhEO.Sprint2.Task0.V1.Test
         public void ValidGetCompareOperations()
         {
             DataService ds = new DataService();
+
             int x = 233;
             int y = 122;
             bool[] res = new bool[6];
