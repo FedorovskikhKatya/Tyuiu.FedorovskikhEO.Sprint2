@@ -13,6 +13,7 @@ namespace Tyuiu.FedorovskikhEO.Sprint2.Task1.V20.Lib
             res[4] = !(res[0]);
             res[5] = (d<c)^(b>a);
             return res;
+
         }
     }
 }
