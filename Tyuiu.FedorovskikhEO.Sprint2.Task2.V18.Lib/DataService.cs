@@ -4,7 +4,7 @@ namespace Tyuiu.FedorovskikhEO.Sprint2.Task2.V18.Lib
     public class DataService : ISprint2Task2V18
     {
         public bool CheckDotInShadedArea(int x, int y)
-        {
+        { 
             bool res;
             if ((x >= 3) && (y >= 3) && (y <= 7) && (x <= 5) ||
                 (x >= 6) && (y >= 5) && (x <= 8) && (y <= 9) ||
