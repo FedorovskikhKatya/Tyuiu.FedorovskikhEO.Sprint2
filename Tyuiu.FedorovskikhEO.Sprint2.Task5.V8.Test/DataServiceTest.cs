@@ -8,9 +8,9 @@ namespace Tyuiu.FedorovskikhEO.Sprint2.Task5.V8.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            Assert.AreEqual("14.5", ds.FindDateOfPreviousDay(5, 15));
-            Assert.AreEqual("30.4", ds.FindDateOfPreviousDay(5, 1));
-            Assert.AreEqual("28.2", ds.FindDateOfPreviousDay(3, 1));
+            Assert.AreEqual("14.05", ds.FindDateOfPreviousDay(5, 15));
+            Assert.AreEqual("30.04", ds.FindDateOfPreviousDay(5, 1));
+            Assert.AreEqual("28.02", ds.FindDateOfPreviousDay(3, 1));
         }
     }
 }
