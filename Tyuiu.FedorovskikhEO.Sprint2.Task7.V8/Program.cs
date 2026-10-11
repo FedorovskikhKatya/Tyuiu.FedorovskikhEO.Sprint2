@@ -21,6 +21,15 @@ namespace Tyuiu.FedorovskikhEO.Sprint2.Task7.V8
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
+            Console.Write("Введите x: ");
+            double x = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Введите y: ");
+            double y = Convert.ToDouble(Console.ReadLine());
+
+            bool result = ds.CheckDotInShadedArea(x, y);
+            Console.WriteLine(result ? "Точка попала в область" : "Точка вне области");
+            Console.ReadKey();
         }
     }
 }
